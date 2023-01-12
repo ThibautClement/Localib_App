@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  app:
+    ports:
+      - 4000:4000
+    build: ./Front
+    depends_on:
+      - back
+  back:
+    ports:
+      - 8080:8080
+    build: ./Back
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017

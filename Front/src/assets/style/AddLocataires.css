@@ -1,0 +1,68 @@
+.boxForm {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxGLtitle {
+    width: 100%;
+    background-color: gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.GLtitle {
+    text-align: center;
+    color: white;
+}
+
+.form{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-centerblock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-body {
+    width: 80%;
+}
+
+.form_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+}
+

@@ -1,0 +1,109 @@
+.topPage {
+    background-color: whitesmoke;
+    padding-top: 50px;
+}
+
+.addTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.addBox {
+    width: 50%;
+    height: 200px;
+    background-color: rgba(13, 109, 253);
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 2px solid rgba(8, 55, 162);
+    color: white;
+}
+
+.labelInput {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.labelList {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputList {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.label {
+    font-weight: 600;
+    width: 80px;
+    padding-bottom: 5px;
+}
+
+.input {
+    border: none;
+    border-radius: 2px;
+    width: 200px;
+    margin-bottom: 9px;
+}
+
+.imgInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.labelFile {
+    cursor: pointer;
+}
+
+.inputFile {
+    display: none;
+}
+
+.rightInBox {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input2 {
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+}
+

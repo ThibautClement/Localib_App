@@ -1,0 +1,55 @@
+.locationPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typeTitle {
+    margin-right: 1500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+    border-bottom: 1px solid black;
+}
+
+.typeBox {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 60px;
+}
+
+.vehiculeTopInfoBox {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(13, 109, 253);
+    color: white;
+}
+
+.vehiculeMiddleImgBox {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.vehiculeBotInfoBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(13, 109, 253);
+}
+
+.priceDay {
+    margin-left: 20px;
+}
+
+.btnSelect {
+    margin-right: 20px;
+    border: 1px solid #bbbbbb;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
